@@ -17,6 +17,7 @@ import { useEffect, useState } from 'react';
       useEffect(() => {
        
         fetchTrending();
+        // eslint-disable-next-line
       }, [page]);
 
       

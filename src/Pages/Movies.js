@@ -23,7 +23,7 @@ import CustomPagination from "../components/Pagination";
       useEffect(() => {
         window.scroll(0, 0);
         fetchMovies();
-
+// eslint-disable-next-line
       }, [page]);
     return (
         <div>
